@@ -5,4 +5,7 @@ def greeting(name):
 
 greeting('Ayman Tareq')
 
-print('This is brach02') # This line only available in brach02
+def anotherf(name,age):
+    print(f"{name} is {age} years old.")
+
+anotherf('Tareq',23)
