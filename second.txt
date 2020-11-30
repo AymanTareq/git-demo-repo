@@ -1,0 +1,6 @@
+Hey, I've just created this file.
+Hello, I added second line.
+
+Here I want to see how git revert works.
+
+Now i'm going to learn git commit --amend command.

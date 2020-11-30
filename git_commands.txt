@@ -1,0 +1,65 @@
+===================Git all Commands==========================
+
+==> git --version
+==> git init
+==> touch file_name.extension (to create a file)
+==> git status (to check file status whether it trackable or not by git)
+==> git add filename ( to make a file trackable by git )
+==> git add . ( to stage all file at a time) 
+==> git commit ( to indicate some changes to a file)
+==> git commit -m "Your messages to track the file"
+==> git log ( to see your activities )
+==> git log --oneline (to see all log in one  line)
+==> git show commit_id ( to see a specific commit task)
+==> git diff (to check new changes in file)
+*
+*
+*
+==> git diff --staged ( to check a diff output after staging a file)
+==> git diff commit_id commit_id  ( to see a difference between two commit)
+==> git rm file_name ( to remove a file using git and its content)
+==> git reset HEAD file_name ( to make a changes unstaged)
+==> git checkout commit_id file_name ( to change version of a file or to go a specific version)
+***
+***
+***
+==> git clone repo_link ( clone or copy or download a repo from github)
+==> git clone repo_link new_repo_name
+==> code . ( to open a repo in VS code)
+==> git remote add origin repo_link ( to add a repo in github)
+==> git push -u origin master ( to push file from local repo to online repo)
+==> git branch ( to see on which branch you are)
+==> git branch branch_name ( to create a new branch)
+==> git checkout branch_name ( to switch one br to another br)
+==> git merge branch_name ( to merge a branch with master br)
+==> git checkout -b branch_name (to create and switch a new branch together)
+***
+***
+==> git commit -a -m "commit message" ( to do commit in one step)
+==> git log -p ( to know more about a commit)
+==> git log --stat
+==> git mv old_file_name new_file_name ( to rename a file)
+==> create a folder named .gitignore to ignore by git that exixt in the folder
+==> git checkout file_name ( to revert a file after changing to its previous mode without commit)
+==> git reset HEAD file_name ( ot unstage a file from stageing area)
+==> git commit --amend ( to overwrite most recent git commit )
+==> git log -p -2 ( to see last 2 commit info)
+==> git revert HEAD ( With git revert, a new commit is created with inverse changes. This cancels previous changes instead of making it as though the original commit never happened.)
+==> git log -3 (ot see last 3 commit info)
+==> git revert commit_id
+
+
+==> git branch -d branch_name ( to delete a unchanged branch)
+==> git merge --abort (if merge appears conflict , this coommand help to cancel this operation )
+==> git branch -D branch_name ( to forcibly delete a branch before merging)
+==> git log --graph --oneline ( to show log in oneline basis and revelent graph)
+==> git remote -v (to see git remote repo url)
+==> git remote show origin (to see details about remote repo)
+==> git branch -r (to see remote reop branch)
+==> git fetch ( to fetch remote repo unmerged commit)
+==> git log origin/master ( to see log of remote repo )
+==> git merge origin/master ( google for more info)
+==> git pull ( to fetch remote repo into our local machine and automatically merge them)
+==> git add -p ( to see changes in file)
+==> 
+
